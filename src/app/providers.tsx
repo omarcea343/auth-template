@@ -15,6 +15,10 @@ export function Providers({ children }: { children: React.ReactNode }) {
             navigate={router.push}
             replace={router.replace}
             onSessionChange={() => router.refresh()}
+            providers={["github"]}
+            avatar
+            basePath="/"
+            settingsUrl="/dashboard/settings"
             LinkComponent={Link}
         >
             {children}

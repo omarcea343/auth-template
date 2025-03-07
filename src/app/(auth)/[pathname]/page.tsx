@@ -10,7 +10,7 @@ export default async function AuthPage({ params }: { params: Promise<{ pathname:
 
     return (
         <div className="flex flex-col items-center my-auto">
-            <AuthCard pathname={pathname} />
+            <AuthCard pathname={pathname} socialLayout="vertical" redirectTo="/dashboard" />
         </div>
     );
 }
