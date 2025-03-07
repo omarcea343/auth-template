@@ -1,8 +1,8 @@
 import { SignedIn, SignedOut, UserButton } from "@daveyplate/better-auth-ui";
+import { AirVent } from "lucide-react";
 import Link from "next/link";
 import { MaxWidthWrapper } from "../max-width-wrapper";
 import { buttonVariants } from "../ui/button";
-import { AirVent, Lock } from "lucide-react";
 
 export async function Navbar() {
     return (
